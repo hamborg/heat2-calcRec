@@ -1,12 +1,12 @@
 # CALCULATE RESULTS ON HEAT2 RECORD FILES
 This script evaluates record files (.rec) from transient analyses in Heat2 (possibly also Heat3).
 
-Danish:
-
 Script af Lasse Hamborg (LHAM),
 November 2022.
 
 ## calcRECdata
+*Danish:*
+
 Dette script bruges til at analysere .REC-filer fra HEAT2's transiente analyser.
 
 For at køre scriptet, **placér scriptet (.PY-filen) i den mappe, hvori din(e) .REC-fil(er) findes.** Dobbeltklik på scriptet.
@@ -67,3 +67,9 @@ Det burde kunne ændres i én linje af koden.
 **B:** Scriptet er kun tjekket mod "ikke-skæve" datapunkter som et datapunkt pr. dag.
 Hvis der vælges noget relativt ulogisk, kan det være, det giver problemer. Det er ikke sikkert, men måske.
 Prøv at lav en kontrol med Excel. Dette kan f.eks. gøres ved at simpelt 'oversætte' .REC-filen til en .CSV-fil. Det script hedder *"rec2csv"*.
+
+## rec2csv
+This script simply translates .REC files (from HEAT2 transient analyses) to .CSV files.
+Put the script in the same folder as the .REC file(s) and run it.
+
+NB: The script translates every .REC file in the folder!
